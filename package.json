@@ -8,10 +8,14 @@
 		"build": "parcel build"
 	},
 	"keywords": [],
+	"staticFiles": {
+		"staticPath": "public"
+	},
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
 		"@parcel/transformer-sass": "^2.10.0",
-		"parcel": "^2.10.0"
+		"parcel": "^2.10.0",
+		"parcel-reporter-static-files-copy": "^1.5.3"
 	}
 }
