@@ -1,0 +1,14 @@
+{
+	"include": [
+		"src/**/*"
+	],
+	"compilerOptions": {
+		"target": "es2021",
+		"strict": false,
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true
+	}
+}
