@@ -3,7 +3,13 @@
 		"src/**/*"
 	],
 	"compilerOptions": {
-		"target": "es2021",
+		"target": "es2022",
+		"module": "es2022",
+		"lib": [
+			"ES2020",
+			"DOM",
+			"DOM.Iterable"
+		],
 		"strict": true,
 		"moduleResolution": "bundler",
 		"allowImportingTsExtensions": true,
