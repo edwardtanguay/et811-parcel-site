@@ -1,6 +1,6 @@
-import skills from '../data/skills.json';
+import { ISkill } from "../interfaces";
 
-export const Skills = () => {
+export const Skills = (skills: ISkill[]) => {
 	return /*html*/ `
 	<h2>There are ${skills.length} skills.</h2>
 	<ul>
