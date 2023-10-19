@@ -11,7 +11,7 @@ import axios from 'axios';
 	document.querySelector<HTMLDivElement>('#app')!.innerHTML = /*html*/ `
 	${Header('Parcel Site')}
 	<p class="mb-3">Welcome to this site.</p> 
-	<img class="mb-3" src="images/code.png?width=10"/>
+	<img class="mb-3 rounded" src="images/code.png?width=10"/>
 	${Skills(skills)}
 	${Jobs(jobs)}
 `;
