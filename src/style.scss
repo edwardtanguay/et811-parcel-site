@@ -1,12 +1,7 @@
-body {
-	font-family: sans-serif;
-	padding: 0 1rem;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-	h1 {
-		color: orange;
-	}
-
-	img {
-		border-radius: .5rem;
-	}
+@layer base {
+	// Sass
 }
